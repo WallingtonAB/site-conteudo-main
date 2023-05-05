@@ -1,0 +1,82 @@
+* {
+margin: 0;
+}
+
+p code {
+  border-radius: 3px;
+  background: #cccccc;
+  color: #000000;
+  padding: 3px;
+  display: inline-block;
+}
+
+.exemplo {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 70%,rgba(21, 168, 16, 0.74) 70%) , url("box-model.png");
+  height: 400px;
+  background-size: cover;
+}
+
+h1{
+  display: inline-block;
+  background-color: #cccccc;
+  width: 450px;
+  height: 350px;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+.senha {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.senha input{
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 350px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.senha img {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 16px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    background-color: #000000;
+    color: #fff;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+    background-color:blue;
+    color: #fff;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  h1 {
+    background-color:greenyellow;
+    color: #fff;
+  }
+}
